@@ -1,12 +1,16 @@
-## Alphabot Rest-Api
-[![Stars](https://img.shields.io/github/stars/zeeoneofc/Rest-api-alphabot?style=flat-square&color=yellow)](https://github.com/zeeoneofc/Rest-api-alphabot/stargazers)
-[![Forks](https://img.shields.io/github/forks/zeeoneofc/Rest-api-alphabot?style=flat-square&color=orange)](https://github.com/zeeoneofc/Rest-api-alphabot/fork)
-[![Size](https://img.shields.io/github/repo-size/zeeoneofc/Rest-api-alphabot?style=flat-square&color=green)](https://github.com/zeeoneofc/Rest-api-alphabot/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/zeeoneofc/Rest-api-alphabot/graphs/commit-activity)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/zeeoneofc/Rest-api-alphabot)   
-[![Contributors](https://img.shields.io/github/contributors/zeeoneofc/Rest-api-alphabot?style=flat-square&color=green)](https://github.com/zeeoneofc/Rest-api-alphabot/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/zeeoneofc/Rest-api-alphabot/blob/zeeoneofc/LICENSE)
-[![Sparkline](https://raw.githubusercontent.com/zeeoneofc/Rest-api-alphabot/zeeoneofc/68747470733a2f2f73746172732e6d6564762e696f2f5465616d756c74726f69642f556c74726f69642e737667.svg?token=ATTTZB3O36GGUHI4LJHYFHDBCEDU2)](https://instagram.com/zeeoneofc)
+# Alphabot Rest-Api
+<p align="center">
+<a href="https://github.com/zeeoneofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/zeeoneofc?color=red&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/api-zeeoneofc/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zeeoneofc/api-zeeoneofc?color=blue&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/api-zeeoneofc/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zeeoneofc/api-zeeoneofc?color=red&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/api-zeeoneofc/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zeeoneofc/api-zeeoneofc?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/Rest-api-alphabot"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/zeeoneofc/Rest-api-alphabot/"><img title="Size" src="https://img.shields.io/github/repo-size/zeeoneofc/Rest-api-alphabot?style=flat-square&color=green"></a>
+<a href="https://github.com/zeeoneofc/Rest-api-alphabot/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+    </p>
+
 -------
 <h1 align="center">assalamu'alaikum <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt="hi"><br>I'm zeeone 😇 </h1>
 <p align="center">
