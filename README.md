@@ -5,7 +5,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/zeeoneofc/Rest-api-alphabot/graphs/commit-activity)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/zeeoneofc/Rest-api-alphabot)   
 [![Contributors](https://img.shields.io/github/contributors/zeeoneofc/Rest-api-alphabot?style=flat-square&color=green)](https://github.com/zeeoneofc/Rest-api-alphabot/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/zeeoneofc/Rest-api-alphabot/zeeoneofc/zeeoneofc/LICENSE)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/zeeoneofc/Rest-api-alphabot/blob/zeeoneofc/LICENSE)
 [![Sparkline](https://stars.medv.io/Teamultroid/Ultroid.svg)](https://stars.medv.io/TeamUltroid/Utroid)
 
 -------
