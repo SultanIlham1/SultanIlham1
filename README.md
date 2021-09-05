@@ -35,7 +35,9 @@
 </p>
 
 ## ```Api Features```
-1. Download & Social Media
+<details>
+</Details>
+1. 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 & 𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖
 <details>
 <summary> <b>Example Case</b> &#10003</summary><br/>
 
@@ -59,7 +61,7 @@ case 'youtube_audio':
 
 ```
 </details>
-2. Islamic
+2. 𝙄𝙨𝙡𝙖𝙢𝙞𝙘
 
 <details>
 
@@ -86,7 +88,7 @@ case 'hadist_sahih':
 ```
 
 </details>
-3. Images
+3. 𝙄𝙢𝙖𝙜𝙚𝙨
 
 <details>
 
@@ -97,7 +99,7 @@ case 'hadist_sahih':
 Example Case:
 
 case 'wallpaper_programming':
-     get_result = await fetchJson(`https://percobaannih.herokuapp.com/api/wallpaper/teknologi?apikey=Alphabot`)
+     get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/wallpaper/teknologi?apikey=Alphabot`)
      get_result = get_result.result
      for (var x = 0; x <= 5; x++) {
      var ini_buffer = await getBuffer(get_result[x])
@@ -107,7 +109,132 @@ case 'wallpaper_programming':
 
 ```
 </details>
-4. Random
+4. 𝙍𝙖𝙣𝙙𝙤𝙢
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
+```
+Example Case:
+
+case 'random_quote':
+     ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/randomquote?apikey=Alphabot')
+     get_result = ini_result.result
+     ini_txt = `${get_result.quotes}\n\n`
+     ini_txt += `~ ${get_result.author}`
+     reply(ini_txt)
+
+```
+</Details>
+5. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 2𝘿
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
+```
+Example Case:
+
+case 'maker_2d':
+      if (args.length < 1) return reply(`Usage: ${prefix + command} teks\nExample : ${prefix + command} zeeoneofc)
+      teksnya = args.join(" ")
+      ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/maker?text=${teksnya}&apikey=Alphabot`}
+      get_result = ini_result.result
+      ini_img = await getBuffer(get_result.results)
+      alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
+      break
+```
+</Details>
+6. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 3𝘿
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
+```
+Example Case:
+
+case 'maker_3d':
+      if (args.length < 1) return reply(`Usage: ${prefix + command} teks\nExample : ${prefix + command} zeeoneofc)
+      teksnya = args.join(" ")
+      ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/maker3d?text=${teksnya}&apikey=Alphabot`}
+      get_result = ini_result.result
+      ini_img = await getBuffer(get_result.results)
+      alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
+      break
+```
+</Details>
+7. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 𝙊𝙩𝙝𝙚𝙧𝙨
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
+```
+Example Case:
+
+case 'sertifikat_ff':
+      if (args.length < 1) return reply(`Usage: ${prefix + command} teks\nExample : ${prefix + command} zeeoneofc)
+      teksnya = args.join(" ")
+      ini_result = await fetchJson(`api-alphabot.herokuapp.com/api/maker/special/epep?text=${teksnya}&apikey=Alphabot`}
+      get_result = ini_result.result
+      ini_img = await getBuffer(get_result.results)
+      alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
+      break
+```
+</Details>
+8. 𝙋𝙝𝙤𝙩𝙤𝙤𝙭𝙮
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
+```
+Example Case:
+
+case 'coffe_cup':
+      if (args.length < 1) return reply(`Usage: ${prefix + command} teks\nExample : ${prefix + command} zeeoneofc)
+      teksnya = args.join(" ")
+      ini_result = await fetchJson(`https://percobaannih.herokuapp.com/api/textmaker/senja?text=${teksnya}&theme=coffee-cup&apikey=Alphabot`}
+      get_result = ini_result.result
+      ini_img = await getBuffer(get_result.url)
+      alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
+      break
+```
+</Details>
+9. 𝘼𝙣𝙞𝙢𝙚
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
+```
+Example Case:
+
+case 'manga':
+      if (args.length < 1) return reply(`Usage: ${prefix + command} naruto\nExample : ${prefix + command} naruto`)
+      query = args.join(" ")
+      var manga = await fetchJson('https://percobaannih.herokuapp.com/api/anime/kusonime?search=${query}&apikey=Alphabot')
+      ini_result = manga.result
+      ini_txt = `Title : ${ini_result.title}\n`
+      ini_txt += `Title Japan : ${ini_result.title_jp}\n`
+      ini_txt += `Genre : ${ini_result.genre}\n`
+      ini_txt += `Season : ${ini_result.season}\n`
+      ini_txt += `Producer : ${ini_result.producer}\n`
+      ini_txt += `Type : ${ini_result.contents.number}\n`
+      ini_txt += `Status : ${ini_result.availabel}\n`
+      ini_txt += `Total Episode : ${ini_result.contents.number}\n`
+      ini_txt += `Score : ${ini_result.contents.arab}\n`
+      ini_txt += `Duration : ${ini_result.availabel}\n`
+      ini_txt += `Release : ${ini_result.contents.number}\n`
+      ini_txt += `Description : ${ini_result.contents.arab}`
+      ini_txt2 = await getBuffer(ini_result.thumb)
+      reply(ini_txt)
+      break
+```
+</Details>
+10. 𝘼𝙨𝙪𝙥𝙖𝙣 𝙏𝙞𝙢𝙚𝙡𝙞𝙣𝙚
 
 <details>
 
@@ -119,7 +246,7 @@ Example Case:
 Pp
 ```
 </Details>
-5. Text Maker 2D
+11. 𝙉𝙎𝙁𝙒
 
 <details>
 
@@ -131,7 +258,7 @@ Example Case:
 Pp
 ```
 </Details>
-6. Text Maker 3D
+12. 𝙂𝙖𝙢𝙚𝙨
 
 <details>
 
@@ -143,7 +270,7 @@ Example Case:
 Pp
 ```
 </Details>
-7. Text Maker Others
+13. 𝙂𝙖𝙘𝙝𝙖 𝘾𝙚𝙬𝙚
 
 <details>
 
@@ -155,7 +282,7 @@ Example Case:
 Pp
 ```
 </Details>
-8. Photooxy
+14. 𝙁𝙞𝙡𝙢𝘼𝙥𝙞𝙠
 
 <details>
 
@@ -167,7 +294,7 @@ Example Case:
 Pp
 ```
 </Details>
-9. Anime
+15. 𝙇𝙠21
 
 <details>
 
@@ -179,7 +306,7 @@ Example Case:
 Pp
 ```
 </Details>
-10. Asupan Timeline
+16. 𝙉𝙚𝙬𝙨
 
 <details>
 
@@ -191,7 +318,7 @@ Example Case:
 Pp
 ```
 </Details>
-11. NSFW
+17. 𝙀𝙣𝙘𝙤𝙙𝙚 & 𝘿𝙚𝙘𝙤𝙙𝙚
 
 <details>
 
@@ -203,79 +330,7 @@ Example Case:
 Pp
 ```
 </Details>
-12. Games
-
-<details>
-
-<summary> <b>Example Case</b> &#10003</summary><br/>
-
-```
-Example Case:
-
-Pp
-```
-</Details>
-13. Gacha Cewe
-
-<details>
-
-<summary> <b>Example Case</b> &#10003</summary><br/>
-
-```
-Example Case:
-
-Pp
-```
-</Details>
-14. FilmApik
-
-<details>
-
-<summary> <b>Example Case</b> &#10003</summary><br/>
-
-```
-Example Case:
-
-Pp
-```
-</Details>
-15. Lk21
-
-<details>
-
-<summary> <b>Example Case</b> &#10003</summary><br/>
-
-```
-Example Case:
-
-Pp
-```
-</Details>
-16. News
-
-<details>
-
-<summary> <b>Example Case</b> &#10003</summary><br/>
-
-```
-Example Case:
-
-Pp
-```
-</Details>
-17. Encode & Decode
-
-<details>
-
-<summary> <b>Example Case</b> &#10003</summary><br/>
-
-```
-Example Case:
-
-Pp
-```
-</Details>
-18. Others
+18. 𝙊𝙩𝙝𝙚𝙧𝙨
 
 <details>
 
