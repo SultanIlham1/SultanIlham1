@@ -40,7 +40,7 @@
 
 <details>
 
-<summary>&#12810 <b>Example Case</b></summary><br/>
+<summary> <b>Example Case</b> &#128214</summary><br/>
 
 ```
 Example Case:
