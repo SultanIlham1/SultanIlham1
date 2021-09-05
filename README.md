@@ -36,13 +36,32 @@
 
 ## ```Api Features```
 
-1. Social Media
+1. Download & Social Media
+
+<details>
 
 ```
 Example Case:
 
-case '
+case 'youtube_audio':  
+      if (args.length < 1) return reply("Where's the link bro")
+      if (!isUrl(args[0]) && !args[0].includes('youtu')) return reply('```Invalid link```')
+      reply(lang.wait()) 
+      anu = await fetchJson(`https://api-alphabot.herokuapp.com/api/yutub/audio?url=${args[0]}&apikey=Alphabot`)
+      ini_txt = `YT AUDIO HAS BEEN FOUND\n\n`
+      ini_txt += `• Judul : ${anu.result.title}\n`
+      ini_txt += `• Ext : mp3\n`
+      ini_txt += `• Size : ${anu.result.filesize}\n\n_Tunggu beberapa menit video akan segera di kirimkan_`
+      ini_txt2 = await getBuffer(anu.result.thumb)
+      ini_txt3 = await getBuffer(anu.result.result)
+      alpha.sendMessage(from, ini_txt2, image, { quoted: mek, caption: ini_txt })
+      alpha.sendMessage(from, ini_txt3, audio, { mimetype: 'audio/mp4', quoted: mek, ptt:true})
+      break
+
 ```
+
+</details>
+
 2. Islamic
 
 ```
@@ -69,7 +88,15 @@ case 'hadist_sahih':
 ```
 Example Case:
 
-Pp
+case 'wallpaper_programming':
+     get_result = await fetchJson(`https://percobaannih.herokuapp.com/api/wallpaper/teknologi?apikey=Alphabot`)
+     get_result = get_result.result
+     for (var x = 0; x <= 5; x++) {
+     var ini_buffer = await getBuffer(get_result[x])
+     await alpha.sendMessage(from, ini_buffer, image)
+     }
+     break
+
 ```
 4. Random
 
