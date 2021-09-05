@@ -35,12 +35,9 @@
 </p>
 
 ## ```Api Features```
-
 1. Download & Social Media
-
 <details>
-
-<summary> <b>Example Case</b> &#128214</summary><br/>
+<summary> <b>Example Case</b> &#10003</summary><br/>
 
 ```
 Example Case:
@@ -61,10 +58,12 @@ case 'youtube_audio':
       break
 
 ```
-
 </details>
-
 2. Islamic
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
 
 ```
 Example Case:
@@ -85,7 +84,14 @@ case 'hadist_sahih':
       reply(ini_txt)
       break
 ```
+
+</details>
 3. Images
+
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 
 ```
 Example Case:
@@ -100,109 +106,184 @@ case 'wallpaper_programming':
      break
 
 ```
+</details>
 4. Random
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 5. Text Maker 2D
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 6. Text Maker 3D
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 7. Text Maker Others
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 8. Photooxy
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 9. Anime
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 10. Asupan Timeline
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 11. NSFW
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 12. Games
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 13. Gacha Cewe
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 14. FilmApik
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 15. Lk21
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 16. News
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 17. Encode & Decode
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
+</Details>
 18. Others
 
+<details>
+
+<summary> <b>Example Case</b> &#10003</summary><br/>
+
 ```
 Example Case:
 
 Pp
 ```
-
+</Details>
