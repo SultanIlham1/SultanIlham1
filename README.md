@@ -34,12 +34,7 @@
 
 </p>
 
-# Example Case 
-- [Click here](#```Api-Features```)
-
 ## ```Api Features```
-<details>
-<summary> <b>Click Here</b></summary><br/>
 
 1. Social Media
 
@@ -53,7 +48,21 @@ case '
 ```
 Example Case:
 
-Pp
+case 'hadist_sahih':
+      if (args.length < 1) return reply(`Usage: ${prefix + command} kitab|nomor\nExample : ${prefix + command} Bukhari|15`)
+      get_args = args.join(" ").split("|")
+      kitab = get_args[0]
+      nomor = get_args[1]
+      var hadist = await fetchJson('https://api-alphabot.herokuapp.com/api/hadits?kitab=${kitab}&nomor=${nomor}&apikey=Alphabot')
+      ini_result = hadist.result
+      ini_txt = `Name : ${ini_result.name}\n`
+      ini_txt += `Id : ${ini_result.id}\n`
+      ini_txt += `Available : ${ini_result.availabel}\n`
+      ini_txt += `Number : ${ini_result.contents.number}\n`
+      ini_txt += `Arab : ${ini_result.contents.arab}\n`
+      ini_txt += `Ind : ${ini_result.contents.id}`
+      reply(ini_txt)
+      break
 ```
 3. Images
 
@@ -168,5 +177,3 @@ Example Case:
 Pp
 ```
 
-
-</details>
