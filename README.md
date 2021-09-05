@@ -40,6 +40,8 @@
 
 <details>
 
+<summary>&#12810 <b>Example Case</b></summary><br/>
+
 ```
 Example Case:
 
