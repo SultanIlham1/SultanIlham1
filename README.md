@@ -34,65 +34,139 @@
 
 </p>
 
-
+# Example Case 
+- [Click here](#```Api-Features```)
 
 ## ```Api Features```
 <details>
 <summary> <b>Click Here</b></summary><br/>
 
-```bash
-> Social Media
-> Islamic
-> Images
-> Random
-> Text Maker 2D
-> Text Maker 3D
-> Text Maker Others
-> Photooxy
-> Anime
-> Asupan Timeline
-> NSFW
-> Games
-> Gacha Cewe
-> FilmApik
-> Lk21
-> News
-> Encode & Decode
-> Others
+1. Social Media
+
+```
+Example Case:
+
+case '
+```
+2. Islamic
+
+```
+Example Case:
+
+Pp
+```
+3. Images
+
+```
+Example Case:
+
+Pp
+```
+4. Random
+
+```
+Example Case:
+
+Pp
+```
+5. Text Maker 2D
+
+```
+Example Case:
+
+Pp
+```
+6. Text Maker 3D
+
+```
+Example Case:
+
+Pp
+```
+7. Text Maker Others
+
+```
+Example Case:
+
+Pp
+```
+8. Photooxy
+
+```
+Example Case:
+
+Pp
+```
+9. Anime
+
+```
+Example Case:
+
+Pp
+```
+10. Asupan Timeline
+
+```
+Example Case:
+
+Pp
+```
+11. NSFW
+
+```
+Example Case:
+
+Pp
+```
+12. Games
+
+```
+Example Case:
+
+Pp
+```
+13. Gacha Cewe
+
+```
+Example Case:
+
+Pp
+```
+14. FilmApik
+
+```
+Example Case:
+
+Pp
+```
+15. Lk21
+
+```
+Example Case:
+
+Pp
+```
+16. News
+
+```
+Example Case:
+
+Pp
+```
+17. Encode & Decode
+
+```
+Example Case:
+
+Pp
+```
+18. Others
+
+```
+Example Case:
+
+Pp
 ```
 
-</details>
-
-### ```Stats:```
-
-<p align="center"><a href="https://github.com/zeeoneofc"><img src="https://github-readme-stats.vercel.app/api?username=zeeoneofc&show_icons=true&theme=radical"></a></p>
-<p align="center"><a href="https://github.com/zeeoneofc"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeeoneofc&theme=radical&layout=compact"></a></p> 
-
-## ```Repo Stats```
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=zeeoneofc&repo=Alpha-userbot&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=zeeoneofc&repo=Alpha-userbot&theme=nightowl)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=zeeoneofc&repo=Lord-Userbot&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=zeeoneofc&repo=zeeoneofc&theme=nightowl)
-
-
-<p>
-    <img src="https://img.shields.io/badge/OS-Linux-blue?&logo=Linux" />
-    <img src="https://img.shields.io/badge/OS-Windows-blue?&logo=Windows" />
-    <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" />
-    <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
-    <img src="https://img.shields.io/badge/Sublime%20Text-gray?&logo=Sublime-Text" />
-</p>
-<details>
-    <summary>&#127942 <b>GitHub Awards</b></summary><br/>
-
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=phaticusthiccy)
 
 </details>
-
-<details>
-    <summary>&#127942 <b>GitHub Activity</b></summary><br/>
-
-![Metrics](https://metrics.lecoq.io/zeeoneofc?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FMakassar)
-
-</details>
-
