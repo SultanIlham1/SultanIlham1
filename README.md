@@ -35,12 +35,11 @@
 </p>
 
 ## ```Api Features```
-<details>
-</Details>
-1. ```𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 & 𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖 🤳```
+
+1. ```𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 & 𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖 🤳 ```
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -62,11 +61,12 @@ case 'youtube_audio':
 
 ```
 </details>
+
 2. ```𝙄𝙨𝙡𝙖𝙢𝙞𝙘 🕌```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -89,11 +89,12 @@ case 'hadist_sahih':
 ```
 
 </details>
+
 3. ```𝙄𝙢𝙖𝙜𝙚𝙨 🖼️```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 
 ```
@@ -110,11 +111,12 @@ case 'wallpaper_programming':
 
 ```
 </details>
+
 4. ```𝙍𝙖𝙣𝙙𝙤𝙢 ♒```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -128,11 +130,12 @@ case 'random_quote':
 
 ```
 </Details>
+
 5. ```𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 2𝘿 👩‍❤️‍💋‍👩```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -147,11 +150,12 @@ case 'maker_2d':
       break
 ```
 </Details>
+
 6. ```𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 3𝘿 🏫```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -166,11 +170,12 @@ case 'maker_3d':
       break
 ```
 </Details>
+
 7. ```𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 𝙊𝙩𝙝𝙚𝙧𝙨 👾```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -185,11 +190,12 @@ case 'sertifikat_ff':
       break
 ```
 </Details>
+
 8. ```𝙋𝙝𝙤𝙩𝙤𝙤𝙭𝙮 🃏```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -204,11 +210,12 @@ case 'coffe_cup':
       break
 ```
 </Details>
+
 9. ```𝘼𝙣𝙞𝙢𝙚 🃏```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -235,11 +242,12 @@ case 'manga':
       break
 ```
 </Details>
+
 10. ```𝘼𝙨𝙪𝙥𝙖𝙣 𝙏𝙞𝙢𝙚𝙡𝙞𝙣𝙚 📽️```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -253,11 +261,12 @@ case 'asupan_santuy':
 
 ```
 </Details>
+
 11. ```𝙉𝙎𝙁𝙒 👙```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -271,11 +280,12 @@ case 'nsfw_ass':
 
 ```
 </Details>
+
 12. ```𝙂𝙖𝙢𝙚𝙨 🎮```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -284,11 +294,12 @@ Untuk game memerlukan function jadi gua gk kasi example dulu
 
 ```
 </Details>
+
 13. ```𝙂𝙖𝙘𝙝𝙖 𝘾𝙚𝙬𝙚 👭```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -302,11 +313,12 @@ case 'cewe_vietnam':
 
 ```
 </Details>
+
 14. ```𝙁𝙞𝙡𝙢𝘼𝙥𝙞𝙠 🎬```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -334,11 +346,12 @@ case 'cari_film':
 
 ```
 </Details>
+
 15. ```𝙇𝙠21 🎦```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -362,11 +375,12 @@ case 'lk21_tahun': //mencari film lk21 berdasarkan tahun
       break
 ```
 </Details>
+
 16. ```𝙉𝙚𝙬𝙨 📰```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -389,11 +403,12 @@ case 'republika':
 
 ```
 </Details>
+
 17. ```𝙀𝙣𝙘𝙤𝙙𝙚 & 𝘿𝙚𝙘𝙤𝙙𝙚 👨‍💻```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
@@ -410,11 +425,12 @@ case 'base64encode':
       break
 ```
 </Details>
+
 18. ```𝙊𝙩𝙝𝙚𝙧𝙨 🌋```
 
 <details>
 
-<summary> <b>Example Case</b> &#10003</summary><br/>
+<summary> <b>Example Case</b></summary><br/>
 
 ```
 Example Case:
