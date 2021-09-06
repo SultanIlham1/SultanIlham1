@@ -36,8 +36,10 @@
 
 ## ```How to install```
 
+[`Click Here For Tutorial`](https://youtu.be/POjBjZx9tvY)<br>
+
 <p align="center">
-  <a href="https://hits.seeyoufarm.com"><img src="https://c.top4top.io/p_2069qnvob1.jpg" />
+  <a href="https://youtu.be/POjBjZx9tvY"><img src="https://f.top4top.io/p_207542cfh1.jpg" />
 </p>
 
 
