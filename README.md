@@ -213,7 +213,7 @@ case 'coffe_cup':
 Example Case:
 
 case 'manga':
-      if (args.length < 1) return reply(`Usage: ${prefix + command} naruto\nExample : ${prefix + command} naruto`)
+      if (args.length < 1) return reply(`Example : ${prefix + command} naruto`)
       query = args.join(" ")
       var manga = await fetchJson('https://percobaannih.herokuapp.com/api/anime/kusonime?search=${query}&apikey=Alphabot')
       ini_result = manga.result
@@ -243,7 +243,13 @@ case 'manga':
 ```
 Example Case:
 
-Pp
+case 'asupan_santuy':
+     ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/asupan/santuy?apikey=Alphabot`)
+     get_result = ini_result.result
+     ini_vid = await getBuffer(get_result.url)
+     alpha.sendMessage(from, ini_vid, video, {mimetype: 'video/mp4',quoted:mek})
+     break
+
 ```
 </Details>
 11. 𝙉𝙎𝙁𝙒
@@ -255,7 +261,13 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'nsfw_ass':
+     ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/nsfw/ass?apikey=Alphabot`)
+     get_result = ini_result.result
+     ini_img = await getBuffer(get_result)
+     alpha.sendMessage(from, ini_img, image, {quoted:mek})
+     break
+
 ```
 </Details>
 12. 𝙂𝙖𝙢𝙚𝙨
@@ -267,7 +279,8 @@ Pp
 ```
 Example Case:
 
-Pp
+Untuk game memerlukan function jadi gua gk kasi example dulu
+
 ```
 </Details>
 13. 𝙂𝙖𝙘𝙝𝙖 𝘾𝙚𝙬𝙚
@@ -279,7 +292,13 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'cewe_vietnam':
+     ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/cewe/vietnam?apikey=Alphabot`)
+     get_result = ini_result.result
+     ini_img = await getBuffer(get_result.url)
+     alpha.sendMessage(from, ini_img, image, {quoted:mek})
+     break
+
 ```
 </Details>
 14. 𝙁𝙞𝙡𝙢𝘼𝙥𝙞𝙠
@@ -291,7 +310,28 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'cari_film':
+      if (args.length < 1) return reply(`Example : ${prefix + command} Avengers)
+      query = args.join(" ")
+      get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/filmapik/search?film=${query}&apikey=Alphabot`)
+      for (var x = 0; x <= 1; x++) {
+      ini_img = get_result[x].result.thumbnailPotrait
+      ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
+      ini_txt += ` Title : ${get_result[x].result.title}\n`
+ini_txt += `Rating :get_result[x].result.rating\n`
+ini_txt += `Episode : get_result[x].result.episode\n`
+ini_txt += `Id : get_result[x].result.movieId
+ini_txt += `Views : get_result[x].result.datails.views
+ini_txt += `Genre :get_result[x].result.datails.genre\n`
+ini_txt += `Duration :get_result[x].result.datails.duration\n`
+ini_txt += `Release :get_result[x].result.datails.release\n`
+ini_txt += `Total Eps. :get_result[x].result.datails.totalEpisodes\n`
+ini_txt += `Description :get_result[x].result.datails.description`
+
+      await alpha.sendMessage(from, ini_img, image, {caption: ini_txt, quoted : mek})
+      }
+      break
+
 ```
 </Details>
 15. 𝙇𝙠21
@@ -303,7 +343,23 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'lk21_tahun': //mencari film lk21 berdasarkan tahun
+      if (args.length < 1) return reply(`Usage : ${prefix + command} Tahun\nExample : ${prefix + command} 2021)
+      query = args.join(" ")
+      get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/lk21/year?tahun=${query}&apikey=Alphabot`)
+      for (var x = 0; x <= 1; x++) {
+      ini_img = get_result[x].result.result.thumbnail
+      ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
+      ini_txt += `Title : ${get_result[x].result.result.title}\n`
+      ini_txt += `Rating :get_result[x].result.result.rating\n`
+      ini_txt += `Genre :get_result[x].result.result.genre\n`
+      ini_txt += `Duration :get_result[x].result.result.duration\n`
+      ini_txt += `Quality :get_result[x].result.result.quality\n`
+      ini_txt += `Trailer :get_result[x].result.result.trailer\n`
+      ini_txt += `Watch :get_result[x].result.result.watch`
+      await alpha.sendMessage(from, ini_img, image, {caption: ini_txt, quoted : mek})
+      }
+      break
 ```
 </Details>
 16. 𝙉𝙚𝙬𝙨
@@ -315,7 +371,22 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'republika': 
+      if (args.length < 1) return reply(`Usage : ${prefix + command} jenis berita\nExample : ${prefix + command} ekonomi)
+      query = args.join(" ")
+      get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/news/republika?type=${query}&apikey=Alphabot`)
+      for (var x = 0; x <= 1; x++) {
+      ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
+      ini_txt += `Title : ${get_result[x].result.data.title}\n`
+      ini_txt += `Link :get_result[x].result.data.link\n`
+      ini_txt += `Isodate :get_result[x].result.data.isoDate\n`
+      ini_txt += `Kategori :get_result[x].result.data.categories\n`
+      ini_txt += `Creator :get_result[x].result.data.creator\n`
+      ini_txt += `Description :get_result[x].result.data.description`
+      reply(ini_txt)
+      }
+      break
+
 ```
 </Details>
 17. 𝙀𝙣𝙘𝙤𝙙𝙚 & 𝘿𝙚𝙘𝙤𝙙𝙚
@@ -327,7 +398,16 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'base64encode':
+      if (args.length < 1) return reply(`Usage : ${prefix + command} teks\nExample : ${prefix + command} zeeoneofc)
+      query = args.join(" ")
+      ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/base?apikey=Alphabot&type=base64&encode=${query}`)
+      get_result = ini_result.result
+      ini_txt = `Type : ${get_result.type}\n`
+      ini_txt = `String : ${get_result.string}\n`
+      ini_txt = `Encode : ${get_result.encode}`
+      reply(ini_txt)
+      break
 ```
 </Details>
 18. 𝙊𝙩𝙝𝙚𝙧𝙨
@@ -339,6 +419,17 @@ Pp
 ```
 Example Case:
 
-Pp
+case 'covid_word':
+ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/covidworld?apikey=Alphabot')
+get_result = ini_result.result
+ini_txt = `C O V I D  W O R L D`
+ini_txt += `Total Case : ${get_result.totalCases}\n`
+ini_txt += `Deaths : ${get_result.deaths}\n`
+ini_txt += `Recovered : ${get_result.recovered}\n`
+ini_txt += `Active Cases : ${get_result.activeCases}\n`
+ini_txt += `Closed Cases : ${get_result.closedCases}\n`
+ini_txt += `lastUpdate : ${get_result.lastUpdate}`
+reply (ini_txt)
+break
 ```
 </Details>
