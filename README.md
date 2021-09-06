@@ -37,7 +37,7 @@
 ## ```Api Features```
 <details>
 </Details>
-1. 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 & 𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖
+1. 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 & 𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖 🤳
 <details>
 <summary> <b>Example Case</b> &#10003</summary><br/>
 
@@ -49,19 +49,19 @@ case 'youtube_audio':
       if (!isUrl(args[0]) && !args[0].includes('youtu')) return reply('```Invalid link```')
       reply(lang.wait()) 
       anu = await fetchJson(`https://api-alphabot.herokuapp.com/api/yutub/audio?url=${args[0]}&apikey=Alphabot`)
-      ini_txt = `YT AUDIO HAS BEEN FOUND\n\n`
-      ini_txt += `• Judul : ${anu.result.title}\n`
-      ini_txt += `• Ext : mp3\n`
-      ini_txt += `• Size : ${anu.result.filesize}\n\n_Tunggu beberapa menit video akan segera di kirimkan_`
-      ini_txt2 = await getBuffer(anu.result.thumb)
-      ini_txt3 = await getBuffer(anu.result.result)
+        ini_txt = `YT AUDIO HAS BEEN FOUND\n\n`
+        ini_txt += `• Judul : ${anu.result.title}\n`
+        ini_txt += `• Ext : mp3\n`
+        ini_txt += `• Size : ${anu.result.filesize}\n\n_Tunggu beberapa menit video akan segera di kirimkan_`
+        ini_txt2 = await getBuffer(anu.result.thumb)
+        ini_txt3 = await getBuffer(anu.result.result)
       alpha.sendMessage(from, ini_txt2, image, { quoted: mek, caption: ini_txt })
       alpha.sendMessage(from, ini_txt3, audio, { mimetype: 'audio/mp4', quoted: mek, ptt:true})
       break
 
 ```
 </details>
-2. 𝙄𝙨𝙡𝙖𝙢𝙞𝙘
+2. 𝙄𝙨𝙡𝙖𝙢𝙞𝙘 🕌
 
 <details>
 
@@ -77,18 +77,18 @@ case 'hadist_sahih':
       nomor = get_args[1]
       var hadist = await fetchJson('https://api-alphabot.herokuapp.com/api/hadits?kitab=${kitab}&nomor=${nomor}&apikey=Alphabot')
       ini_result = hadist.result
-      ini_txt = `Name : ${ini_result.name}\n`
-      ini_txt += `Id : ${ini_result.id}\n`
-      ini_txt += `Available : ${ini_result.availabel}\n`
-      ini_txt += `Number : ${ini_result.contents.number}\n`
-      ini_txt += `Arab : ${ini_result.contents.arab}\n`
-      ini_txt += `Ind : ${ini_result.contents.id}`
+         ini_txt = `Name : ${ini_result.name}\n`
+         ini_txt += `Id : ${ini_result.id}\n`
+         ini_txt += `Available : ${ini_result.availabel}\n`
+         ini_txt += `Number : ${ini_result.contents.number}\n`
+         ini_txt += `Arab : ${ini_result.contents.arab}\n`
+         ini_txt += `Ind : ${ini_result.contents.id}`
       reply(ini_txt)
       break
 ```
 
 </details>
-3. 𝙄𝙢𝙖𝙜𝙚𝙨
+3. 𝙄𝙢𝙖𝙜𝙚𝙨 🖼️
 
 <details>
 
@@ -109,7 +109,7 @@ case 'wallpaper_programming':
 
 ```
 </details>
-4. 𝙍𝙖𝙣𝙙𝙤𝙢
+4. 𝙍𝙖𝙣𝙙𝙤𝙢 ♒
 
 <details>
 
@@ -121,13 +121,13 @@ Example Case:
 case 'random_quote':
      ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/randomquote?apikey=Alphabot')
      get_result = ini_result.result
-     ini_txt = `${get_result.quotes}\n\n`
-     ini_txt += `~ ${get_result.author}`
+        ini_txt = `${get_result.quotes}\n\n`
+       ini_txt += `~ ${get_result.author}`
      reply(ini_txt)
 
 ```
 </Details>
-5. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 2𝘿
+5. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 2𝘿 👩‍❤️‍💋‍👩
 
 <details>
 
@@ -141,12 +141,12 @@ case 'maker_2d':
       teksnya = args.join(" ")
       ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/maker?text=${teksnya}&apikey=Alphabot`}
       get_result = ini_result.result
-      ini_img = await getBuffer(get_result.results)
+         ini_img = await getBuffer(get_result.results)
       alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
       break
 ```
 </Details>
-6. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 3𝘿
+6. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 3𝘿 🏫
 
 <details>
 
@@ -160,12 +160,12 @@ case 'maker_3d':
       teksnya = args.join(" ")
       ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/maker3d?text=${teksnya}&apikey=Alphabot`}
       get_result = ini_result.result
-      ini_img = await getBuffer(get_result.results)
+         ini_img = await getBuffer(get_result.results)
       alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
       break
 ```
 </Details>
-7. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 𝙊𝙩𝙝𝙚𝙧𝙨
+7. 𝙏𝙚𝙭𝙩 𝙈𝙖𝙠𝙚𝙧 𝙊𝙩𝙝𝙚𝙧𝙨 👾
 
 <details>
 
@@ -179,12 +179,12 @@ case 'sertifikat_ff':
       teksnya = args.join(" ")
       ini_result = await fetchJson(`api-alphabot.herokuapp.com/api/maker/special/epep?text=${teksnya}&apikey=Alphabot`}
       get_result = ini_result.result
-      ini_img = await getBuffer(get_result.results)
+         ini_img = await getBuffer(get_result.results)
       alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
       break
 ```
 </Details>
-8. 𝙋𝙝𝙤𝙩𝙤𝙤𝙭𝙮
+8. 𝙋𝙝𝙤𝙩𝙤𝙤𝙭𝙮 🃏
 
 <details>
 
@@ -198,12 +198,12 @@ case 'coffe_cup':
       teksnya = args.join(" ")
       ini_result = await fetchJson(`https://percobaannih.herokuapp.com/api/textmaker/senja?text=${teksnya}&theme=coffee-cup&apikey=Alphabot`}
       get_result = ini_result.result
-      ini_img = await getBuffer(get_result.url)
+         ini_img = await getBuffer(get_result.url)
       alpha.sendMessage(from, ini_img, image,{quoted :mek, caption : 'Nih kak hasilnya'})
       break
 ```
 </Details>
-9. 𝘼𝙣𝙞𝙢𝙚
+9. 𝘼𝙣𝙞𝙢𝙚 🃏
 
 <details>
 
@@ -217,24 +217,24 @@ case 'manga':
       query = args.join(" ")
       var manga = await fetchJson('https://percobaannih.herokuapp.com/api/anime/kusonime?search=${query}&apikey=Alphabot')
       ini_result = manga.result
-      ini_txt = `Title : ${ini_result.title}\n`
-      ini_txt += `Title Japan : ${ini_result.title_jp}\n`
-      ini_txt += `Genre : ${ini_result.genre}\n`
-      ini_txt += `Season : ${ini_result.season}\n`
-      ini_txt += `Producer : ${ini_result.producer}\n`
-      ini_txt += `Type : ${ini_result.contents.number}\n`
-      ini_txt += `Status : ${ini_result.availabel}\n`
-      ini_txt += `Total Episode : ${ini_result.contents.number}\n`
-      ini_txt += `Score : ${ini_result.contents.arab}\n`
-      ini_txt += `Duration : ${ini_result.availabel}\n`
-      ini_txt += `Release : ${ini_result.contents.number}\n`
-      ini_txt += `Description : ${ini_result.contents.arab}`
-      ini_txt2 = await getBuffer(ini_result.thumb)
+         ini_txt = `Title : ${ini_result.title}\n`
+         ini_txt += `Title Japan : ${ini_result.title_jp}\n`
+         ini_txt += `Genre : ${ini_result.genre}\n`
+         ini_txt += `Season : ${ini_result.season}\n`
+         ini_txt += `Producer : ${ini_result.producer}\n`
+         ini_txt += `Type : ${ini_result.contents.number}\n`
+         ini_txt += `Status : ${ini_result.availabel}\n`
+         ini_txt += `Total Episode : ${ini_result.contents.number}\n`
+         ini_txt += `Score : ${ini_result.contents.arab}\n`
+         ini_txt += `Duration : ${ini_result.availabel}\n`
+         ini_txt += `Release : ${ini_result.contents.number}\n`
+         ini_txt += `Description : ${ini_result.contents.arab}`
+         ini_txt2 = await getBuffer(ini_result.thumb)
       reply(ini_txt)
       break
 ```
 </Details>
-10. 𝘼𝙨𝙪𝙥𝙖𝙣 𝙏𝙞𝙢𝙚𝙡𝙞𝙣𝙚
+10. 𝘼𝙨𝙪𝙥𝙖𝙣 𝙏𝙞𝙢𝙚𝙡𝙞𝙣𝙚 📽️
 
 <details>
 
@@ -246,13 +246,13 @@ Example Case:
 case 'asupan_santuy':
      ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/asupan/santuy?apikey=Alphabot`)
      get_result = ini_result.result
-     ini_vid = await getBuffer(get_result.url)
+        ini_vid = await getBuffer(get_result.url)
      alpha.sendMessage(from, ini_vid, video, {mimetype: 'video/mp4',quoted:mek})
      break
 
 ```
 </Details>
-11. 𝙉𝙎𝙁𝙒
+11. 𝙉𝙎𝙁𝙒 👙
 
 <details>
 
@@ -264,13 +264,13 @@ Example Case:
 case 'nsfw_ass':
      ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/nsfw/ass?apikey=Alphabot`)
      get_result = ini_result.result
-     ini_img = await getBuffer(get_result)
+        ini_img = await getBuffer(get_result)
      alpha.sendMessage(from, ini_img, image, {quoted:mek})
      break
 
 ```
 </Details>
-12. 𝙂𝙖𝙢𝙚𝙨
+12. 𝙂𝙖𝙢𝙚𝙨 🎮
 
 <details>
 
@@ -283,7 +283,7 @@ Untuk game memerlukan function jadi gua gk kasi example dulu
 
 ```
 </Details>
-13. 𝙂𝙖𝙘𝙝𝙖 𝘾𝙚𝙬𝙚
+13. 𝙂𝙖𝙘𝙝𝙖 𝘾𝙚𝙬𝙚 👭
 
 <details>
 
@@ -295,13 +295,13 @@ Example Case:
 case 'cewe_vietnam':
      ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/cewe/vietnam?apikey=Alphabot`)
      get_result = ini_result.result
-     ini_img = await getBuffer(get_result.url)
+        ini_img = await getBuffer(get_result.url)
      alpha.sendMessage(from, ini_img, image, {quoted:mek})
      break
 
 ```
 </Details>
-14. 𝙁𝙞𝙡𝙢𝘼𝙥𝙞𝙠
+14. 𝙁𝙞𝙡𝙢𝘼𝙥𝙞𝙠 🎬
 
 <details>
 
@@ -315,26 +315,25 @@ case 'cari_film':
       query = args.join(" ")
       get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/filmapik/search?film=${query}&apikey=Alphabot`)
       for (var x = 0; x <= 1; x++) {
-      ini_img = get_result[x].result.thumbnailPotrait
-      ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
-      ini_txt += ` Title : ${get_result[x].result.title}\n`
-ini_txt += `Rating :get_result[x].result.rating\n`
-ini_txt += `Episode : get_result[x].result.episode\n`
-ini_txt += `Id : get_result[x].result.movieId
-ini_txt += `Views : get_result[x].result.datails.views
-ini_txt += `Genre :get_result[x].result.datails.genre\n`
-ini_txt += `Duration :get_result[x].result.datails.duration\n`
-ini_txt += `Release :get_result[x].result.datails.release\n`
-ini_txt += `Total Eps. :get_result[x].result.datails.totalEpisodes\n`
-ini_txt += `Description :get_result[x].result.datails.description`
-
+         ini_img = get_result[x].result.thumbnailPotrait
+         ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
+         ini_txt += ` Title : ${get_result[x].result.title}\n`
+         ini_txt += `Rating :get_result[x].result.rating\n`
+         ini_txt += `Episode : get_result[x].result.episode\n`
+         ini_txt += `Id : get_result[x].result.movieId
+         ini_txt += `Views : get_result[x].result.datails.views
+         ini_txt += `Genre :get_result[x].result.datails.genre\n`
+         ini_txt += `Duration :get_result[x].result.datails.duration\n`
+         ini_txt += `Release :get_result[x].result.datails.release\n`
+         ini_txt += `Total Eps. :get_result[x].result.datails.totalEpisodes\n`
+         ini_txt += `Description :get_result[x].result.datails.description`
       await alpha.sendMessage(from, ini_img, image, {caption: ini_txt, quoted : mek})
       }
       break
 
 ```
 </Details>
-15. 𝙇𝙠21
+15. 𝙇𝙠21 🎦
 
 <details>
 
@@ -348,21 +347,21 @@ case 'lk21_tahun': //mencari film lk21 berdasarkan tahun
       query = args.join(" ")
       get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/lk21/year?tahun=${query}&apikey=Alphabot`)
       for (var x = 0; x <= 1; x++) {
-      ini_img = get_result[x].result.result.thumbnail
-      ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
-      ini_txt += `Title : ${get_result[x].result.result.title}\n`
-      ini_txt += `Rating :get_result[x].result.result.rating\n`
-      ini_txt += `Genre :get_result[x].result.result.genre\n`
-      ini_txt += `Duration :get_result[x].result.result.duration\n`
-      ini_txt += `Quality :get_result[x].result.result.quality\n`
-      ini_txt += `Trailer :get_result[x].result.result.trailer\n`
-      ini_txt += `Watch :get_result[x].result.result.watch`
+         ini_img = get_result[x].result.result.thumbnail
+         ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
+         ini_txt += `Title : ${get_result[x].result.result.title}\n`
+         ini_txt += `Rating :get_result[x].result.result.rating\n`
+         ini_txt += `Genre :get_result[x].result.result.genre\n`
+         ini_txt += `Duration :get_result[x].result.result.duration\n`
+         ini_txt += `Quality :get_result[x].result.result.quality\n`
+         ini_txt += `Trailer :get_result[x].result.result.trailer\n`
+         ini_txt += `Watch :get_result[x].result.result.watch`
       await alpha.sendMessage(from, ini_img, image, {caption: ini_txt, quoted : mek})
       }
       break
 ```
 </Details>
-16. 𝙉𝙚𝙬𝙨
+16. 𝙉𝙚𝙬𝙨 📰
 
 <details>
 
@@ -376,20 +375,20 @@ case 'republika':
       query = args.join(" ")
       get_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/news/republika?type=${query}&apikey=Alphabot`)
       for (var x = 0; x <= 1; x++) {
-      ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
-      ini_txt += `Title : ${get_result[x].result.data.title}\n`
-      ini_txt += `Link :get_result[x].result.data.link\n`
-      ini_txt += `Isodate :get_result[x].result.data.isoDate\n`
-      ini_txt += `Kategori :get_result[x].result.data.categories\n`
-      ini_txt += `Creator :get_result[x].result.data.creator\n`
-      ini_txt += `Description :get_result[x].result.data.description`
+         ini_txt = `DATA BERHASIL DI TEMUKAN\n\n`
+         ini_txt += `Title : ${get_result[x].result.data.title}\n`
+         ini_txt += `Link :get_result[x].result.data.link\n`
+         ini_txt += `Isodate :get_result[x].result.data.isoDate\n`
+         ini_txt += `Kategori :get_result[x].result.data.categories\n`
+         ini_txt += `Creator :get_result[x].result.data.creator\n`
+         ini_txt += `Description :get_result[x].result.data.description`
       reply(ini_txt)
       }
       break
 
 ```
 </Details>
-17. 𝙀𝙣𝙘𝙤𝙙𝙚 & 𝘿𝙚𝙘𝙤𝙙𝙚
+17. 𝙀𝙣𝙘𝙤𝙙𝙚 & 𝘿𝙚𝙘𝙤𝙙𝙚 👨‍💻
 
 <details>
 
@@ -403,14 +402,14 @@ case 'base64encode':
       query = args.join(" ")
       ini_result = await fetchJson(`https://api-alphabot.herokuapp.com/api/base?apikey=Alphabot&type=base64&encode=${query}`)
       get_result = ini_result.result
-      ini_txt = `Type : ${get_result.type}\n`
-      ini_txt = `String : ${get_result.string}\n`
-      ini_txt = `Encode : ${get_result.encode}`
+         ini_txt = `Type : ${get_result.type}\n`
+         ini_txt += `String : ${get_result.string}\n`
+         ini_txt += `Encode : ${get_result.encode}`
       reply(ini_txt)
       break
 ```
 </Details>
-18. 𝙊𝙩𝙝𝙚𝙧𝙨
+18. 𝙊𝙩𝙝𝙚𝙧𝙨 🌋
 
 <details>
 
@@ -420,16 +419,16 @@ case 'base64encode':
 Example Case:
 
 case 'covid_word':
-ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/covidworld?apikey=Alphabot')
-get_result = ini_result.result
-ini_txt = `C O V I D  W O R L D`
-ini_txt += `Total Case : ${get_result.totalCases}\n`
-ini_txt += `Deaths : ${get_result.deaths}\n`
-ini_txt += `Recovered : ${get_result.recovered}\n`
-ini_txt += `Active Cases : ${get_result.activeCases}\n`
-ini_txt += `Closed Cases : ${get_result.closedCases}\n`
-ini_txt += `lastUpdate : ${get_result.lastUpdate}`
-reply (ini_txt)
-break
+     ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/covidworld?apikey=Alphabot')
+     get_result = ini_result.result
+        ini_txt = `C O V I D  W O R L D`
+        ini_txt += `Total Case : ${get_result.totalCases}\n`
+        ini_txt += `Deaths : ${get_result.deaths}\n`
+        ini_txt += `Recovered : ${get_result.recovered}\n`
+        ini_txt += `Active Cases : ${get_result.activeCases}\n`
+        ini_txt += `Closed Cases : ${get_result.closedCases}\n`
+        ini_txt += `lastUpdate : ${get_result.lastUpdate}`
+     reply (ini_txt)
+     break
 ```
 </Details>
